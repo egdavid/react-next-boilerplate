@@ -29,5 +29,5 @@ const signale = new Signale(options);
   server.get('*', (req, res) => handle(req, res));
 
   await server.listen(port);
-  signale.success(`<> React Next Boilerplate ready on localhost:${port}`);
+  signale.success(`<> React Next Boilerplate ready on http://localhost:${port}`);
 })();
